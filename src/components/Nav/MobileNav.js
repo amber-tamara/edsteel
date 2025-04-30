@@ -6,8 +6,8 @@ export default function MobileNav({ open, toggleDrawer }) {
   return (
     <Drawer
       anchor="bottom"
-      open={open} // ✅ Controls if it's visible
-      onClose={toggleDrawer} // ✅ Closes when clicking outside
+      open={open}
+      onClose={toggleDrawer}
       sx={{
         "& .MuiDrawer-paper": {
           width: "100%",
